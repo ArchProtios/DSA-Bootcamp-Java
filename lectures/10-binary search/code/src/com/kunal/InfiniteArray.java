@@ -14,7 +14,7 @@ public class InfiniteArray {
         int end = 1;
 
         // condition for the target to lie in the range
-        while (target > arr[end]) {
+        while (target >= arr[end]) {
             int temp = end + 1; // this is my new start
             // double the box value
             // end = previous end + sizeofbox*2
